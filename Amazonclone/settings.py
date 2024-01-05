@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Amazonclone.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,4 +131,3 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"media")
 
 STATIC_URL="/static/"
 STATIC_ROOT=os.path.join(BASE_DIR,"static")
-BASE_URL="http://127.0.0.1:8000"
